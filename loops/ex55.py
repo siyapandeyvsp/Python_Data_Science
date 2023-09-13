@@ -14,6 +14,12 @@ for d,a in zip(dis,ngl):
     left(a)
     
    
-
-
+penup()
+#for window
+line=[20,20,20,20]
+angle=[90,90,90,90]
+for l,b in zip(line,angle):
+   pendown()
+   forward(l)
+   left(b)
 mainloop()
